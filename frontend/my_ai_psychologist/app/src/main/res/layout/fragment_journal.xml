@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FCFCF8">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false" />
+
+    <EditText
+        android:id="@+id/journal_entry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Write about your day..."
+        android:paddingLeft="15sp"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_style"
+        android:fontFamily="@font/montserrat_alternates"
+        android:textColor="@color/third"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/save_entry_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_style"
+        android:text="Save"
+        android:textSize="15sp"
+        android:fontFamily="@font/montserrat_alternates"/>
+
+
+</LinearLayout>

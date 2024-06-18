@@ -1,0 +1,6 @@
+flask
+flask-restful 
+openai
+flask_sqlalchemy
+python-dotenv
+Flask-JWT-Extended
